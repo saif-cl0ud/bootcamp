@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codingbootcamp/codingbootcamp.github.io.git"
+    "url": "git+https://github.com/saif-cl0ud/bootcamp.git"
   },
   "author": "rohan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/codingbootcamp/codingbootcamp.github.io/issues"
+    "url": "https://github.com/saif-cl0ud/bootcamp.git/issues"
   },
-  "homepage": "https://github.com/codingbootcamp/codingbootcamp.github.io#readme",
+  "homepage": "https://github.com/saif-cl0ud/bootcamp.git#readme",
   "dependencies": {
     "body-parser": "^1.17.2",
     "cors": "^2.8.4",

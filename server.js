@@ -43,6 +43,18 @@ app.route('/todos')
         return TodoController.createTodo(req, res);
     });
 
+app.route('/todos/:todoId')
+    .get(function(req, res) {
+        return TodoController.getTodo(req, res);
+    })
+    .patch(function(req, res) {
+        return TodoController.updateTodo(req, res);
+    })
+    .delete(function(req, res) {
+        return TodoController.deleteTodo(req, res);
+    });
+
+
 app.listen(PORT);
 
 
